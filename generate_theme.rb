@@ -120,11 +120,11 @@ class ThemeSelector
 end
 
 # Oasis Vimium-C Theme Generator
-# Generates custom Vimium-C CSS themes from Oasis palette combinations
+# Generates custom Vimium-C CSS themes from json palette combinations
 #
 # This class handles theme generation for Vimium-C browser extension,
 # supporting both interactive and CLI modes for selecting day/night
-# theme combinations from available Oasis color palettes.
+# theme combinations from available color palettes.
 class ThemeGenerator
   SCRIPT_DIR = __dir__
   MAPPINGS_DIR = File.join(SCRIPT_DIR, 'mappings')
