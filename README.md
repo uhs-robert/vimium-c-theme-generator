@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-A simple Ruby-based CLI tool to generate custom CSS themes for the [Vimium-C browser extension](https://github.com/gdh1995/vimium-c).
+A simple Ruby-based CLI tool to generate custom CSS themes for the <a href="https://github.com/gdh1995/vimium-c">Vimium-C browser extension</a>.
 </p>
 
 ## ✅ Requirements
