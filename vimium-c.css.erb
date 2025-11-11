@@ -21,7 +21,7 @@
   --link: <%= @day_link %>;
   --border: <%= @day_border %>;
   --primary: <%= @day_primary %>;
-  --light-primary: <%= @day_light_primary %>;
+  --hover-primary: <%= @day_hover_primary %>;
   --secondary: <%= @day_secondary %>;
   --title-match: <%= @day_title_match %>;
   --link-match: <%= @day_link_match %>;
@@ -34,7 +34,7 @@
   --n-link: <%= @night_link %>;
   --n-border: <%= @night_border %>;
   --n-primary: <%= @night_primary %>;
-  --n-light-primary: <%= @night_light_primary %>;
+  --n-hover-primary: <%= @night_hover_primary %>;
   --n-secondary: <%= @night_secondary %>;
   --n-title-match: <%= @night_title_match %>;
   --n-link-match: <%= @night_link_match %>;
@@ -110,7 +110,7 @@
   --fg: <%= @day_fg %>;
   --link: <%= @day_link %>;
   --primary: <%= @day_primary %>;
-  --light-primary: <%= @day_light_primary %>;
+  --hover-primary: <%= @day_hover_primary %>;
   --secondary: <%= @day_secondary %>;
   --border: <%= @day_border %>;
   --title-match: <%= @day_title_match %>;
@@ -124,7 +124,7 @@
   --n-link: <%= @night_link %>;
   --n-border: <%= @night_border %>;
   --n-primary: <%= @night_primary %>;
-  --n-light-primary: <%= @night_light_primary %>;
+  --n-hover-primary: <%= @night_hover_primary %>;
   --n-secondary: <%= @night_secondary %>;
   --n-title-match: <%= @night_title_match %>;
   --n-link-match: <%= @night_link_match %>;
@@ -148,10 +148,10 @@ body {
 
 .button:hover {
   background: inherit;
-  color: var(--light-primary);
+  color: var(--hover-primary);
 }
 .has-dark .button:hover {
-  color: var(--n-light-primary);
+  color: var(--n-hover-primary);
 }
 
 /* Omni Backgrounds */
@@ -308,7 +308,7 @@ body {
   --fg: <%= @day_fg %>;
   --link: <%= @day_link %>;
   --primary: <%= @day_primary %>;
-  --light-primary: <%= @day_light_primary %>;
+  --hover-primary: <%= @day_hover_primary %>;
   --secondary: <%= @day_secondary %>;
   --border: <%= @day_border %>;
   --title-match: <%= @day_title_match %>;
@@ -322,7 +322,7 @@ body {
   --n-link: <%= @night_link %>;
   --n-border: <%= @night_border %>;
   --n-primary: <%= @night_primary %>;
-  --n-light-primary: <%= @night_light_primary %>;
+  --n-hover-primary: <%= @night_hover_primary %>;
   --n-secondary: <%= @night_secondary %>;
   --n-title-match: <%= @night_title_match %>;
   --n-link-match: <%= @night_link_match %>;

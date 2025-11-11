@@ -21,7 +21,7 @@
   --link: #9D9870;
   --border: #DFC47A;
   --primary: #9D4529;
-  --light-primary: #B3505E;
+  --hover-primary: #B3505E;
   --secondary: #1C6FB8;
   --title-match: #2A712D;
   --link-match: #1C6FB8;
@@ -34,7 +34,7 @@
   --n-link: #5A524B;
   --n-border: #1A283F;
   --n-primary: #1CA1FF;
-  --n-light-primary: #87CEEB;
+  --n-hover-primary: #87CEEB;
   --n-secondary: #FFA247;
   --n-title-match: #53D390;
   --n-link-match: #FFA247;
@@ -110,7 +110,7 @@
   --fg: #3F321F;
   --link: #9D9870;
   --primary: #9D4529;
-  --light-primary: #B3505E;
+  --hover-primary: #B3505E;
   --secondary: #1C6FB8;
   --border: #DFC47A;
   --title-match: #2A712D;
@@ -124,7 +124,7 @@
   --n-link: #5A524B;
   --n-border: #1A283F;
   --n-primary: #1CA1FF;
-  --n-light-primary: #87CEEB;
+  --n-hover-primary: #87CEEB;
   --n-secondary: #FFA247;
   --n-title-match: #53D390;
   --n-link-match: #FFA247;
@@ -148,10 +148,10 @@ body {
 
 .button:hover {
   background: inherit;
-  color: var(--light-primary);
+  color: var(--hover-primary);
 }
 .has-dark .button:hover {
-  color: var(--n-light-primary);
+  color: var(--n-hover-primary);
 }
 
 /* Omni Backgrounds */
@@ -308,7 +308,7 @@ body {
   --fg: #3F321F;
   --link: #9D9870;
   --primary: #9D4529;
-  --light-primary: #B3505E;
+  --hover-primary: #B3505E;
   --secondary: #1C6FB8;
   --border: #DFC47A;
   --title-match: #2A712D;
@@ -322,7 +322,7 @@ body {
   --n-link: #5A524B;
   --n-border: #1A283F;
   --n-primary: #1CA1FF;
-  --n-light-primary: #87CEEB;
+  --n-hover-primary: #87CEEB;
   --n-secondary: #FFA247;
   --n-title-match: #53D390;
   --n-link-match: #FFA247;

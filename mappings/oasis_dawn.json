@@ -11,7 +11,7 @@
     "link": "#A7A585",
     "border": "#E3D8A4",
     "primary": "#B5563A",
-    "light_primary": "#B85763",
+    "hover_primary": "#B85763",
     "secondary": "#1C6FB8",
     "title_match": "#2A712D",
     "link_match": "#1C6FB8"
